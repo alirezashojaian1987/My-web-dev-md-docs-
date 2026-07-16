@@ -31,6 +31,7 @@ A variable can hold 8 types of data: 7 Primitives and 1 Object
 | Undefined | A primitive variable with no assigned value   |
 | Null      | A primitive value representing object absence |
 | Symbol    | A unique and primitive identifier             |
+*Note:* As mentioned above, undefined is a type, but also can be a value. A variable is undefined when there's no value assigned to it.
 
 *Examples:*
 ```JS
@@ -88,7 +89,7 @@ In the first example, JavaScript treats 16 and 4 as numbers, until it reaches "V
 In the second example, since the first operand is a string, all operands are treated as strings.
 
 ##### Primitive vs reference types
-**Mutability
+**Mutability**
 ```js
 let a=10;
 let b=a;

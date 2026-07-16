@@ -43,6 +43,11 @@ const person = new Object({
   eyeColor: "blue"  
 });
 ```
+```js
+const car=new Object();
+car.color="red";
+car.speed=200;
+```
 All the examples above do exactly the same.
 There is no need to use `new Object()`.
 For readability, simplicity and speed, use an **object literal** instead.
