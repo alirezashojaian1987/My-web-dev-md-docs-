@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Java Script/1) Variables & scopes/1) Variables.md",
+                "file": "Essentials/Next Js/3) Deep dive to different rendering techniques/8) Nano id.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) Variables"
+              "title": "8) Nano id"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "right": {
     "id": "de78df208cd42a20",
@@ -169,11 +169,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "5f955bda22014270",
+  "active": "1b19f75e8d110ff9",
   "lastOpenFiles": [
+    "Essentials/Next Js/2) Routing and navigation/3. Routing in Nextjs.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/8) Nano id.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques",
+    "Essentials/Next Js/2) Routing and navigation/7. Programmatic navigation.md",
+    "Essentials/Next Js/2) Routing and navigation/6. catch all routes.md",
+    "Essentials/Next Js/2) Routing and navigation/4. Navigating between pages.md",
+    "Essentials/Next Js/1) Intro and fundamentals/2. Create your 1st Next.js project.md",
+    "Essentials/Next Js/2) Routing and navigation/5. Dynamic routing.md",
+    "Essentials/Next Js/1) Intro and fundamentals/1. Intro.md",
+    "Essentials/Java Script/1) Variables & scopes/1) Variables.md",
     "1)My roadmap.md",
-    "Essentials/Java Script/1) Variables & scopes/1) Variables.md",
-    "Essentials/Java Script/1) Variables & scopes/1) Variables.md",
     "Essentials/Java Script/1) Variables & scopes/2) Data types.md",
     "Essentials/Java Script/1) Variables & scopes/3) JS Scopes.md",
     "Essentials/Java Script/1) Variables & scopes/4) JS hoisting.md",
@@ -185,18 +193,11 @@
     "Essentials/React/3) Styling React components/20. Tailwind CSS.md",
     "Essentials/React/3) Styling React components/18. CSS module.md",
     "Essentials/React/3) Styling React components/17. Vanilla CSS and BEM convention.md",
-    "Essentials/Next Js/2) Routing and navigation/5. Dynamic routing.md",
-    "Essentials/Next Js/2) Routing and navigation/4. Navigating between pages.md",
-    "Essentials/Next Js/2) Routing and navigation/3. Routing in Nextjs.md",
     "Essentials/CSS/7) CSS animations.md",
     "Essentials/CSS/8) CSS functions.md",
-    "Essentials/Next Js/1) Intro and fundamentals/2. Create your 1st Next.js project.md",
     "Essentials/Java Script/8) Loops.md",
     "Essentials/CSS/1) CSS selectors.md",
     "Essentials/React/7) Routing with React Router/32. Dynamic routes and router's hooks.md",
-    "Essentials/React/7) Routing with React Router/31. NavLinks.md",
-    "Essentials/React/7) Routing with React Router/30. Routers.md",
-    "Essentials/React/5) Side effects/26) Understanding UseEffects.md",
     "Essentials/Next Js/2) Routing and navigation",
     "Essentials/Next Js/1) Intro and fundamentals",
     "Essentials/Next Js",
@@ -206,7 +207,6 @@
     "Essentials/Type Script/4) Generics",
     "Essentials/React/13) App wide state management",
     "Essentials/React/12) Browser Storage",
-    "Essentials/Type Script/3) Advanced types",
     "img_sem_elements 1.gif",
     "img_sem_elements.gif"
   ]

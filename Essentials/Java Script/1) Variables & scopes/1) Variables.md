@@ -100,3 +100,9 @@ let x = 2 + 3 + "5";
 ```
 
 ##### Ternary op
+```js
+const age=18;
+const can_vote=age>=18 ? true : false;
+  
+console.log(can_vote);
+```
