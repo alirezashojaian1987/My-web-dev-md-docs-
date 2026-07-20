@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Next Js/3) Deep dive to different rendering techniques/8) Nano id.md",
+                "file": "Essentials/Next Js/3) Deep dive to different rendering techniques/11) Incremental static regeneration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8) Nano id"
+              "title": "11) Incremental static regeneration"
             }
           }
         ]
@@ -169,10 +169,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b19f75e8d110ff9",
+  "active": "5f955bda22014270",
   "lastOpenFiles": [
-    "Essentials/Next Js/2) Routing and navigation/3. Routing in Nextjs.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/10) Data fetching for static pages.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/11) Incremental static regeneration.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/9) How does pre-rendering works.md",
     "Essentials/Next Js/3) Deep dive to different rendering techniques/8) Nano id.md",
+    "Essentials/Next Js/2) Routing and navigation/3. Routing in Nextjs.md",
     "Essentials/Next Js/3) Deep dive to different rendering techniques",
     "Essentials/Next Js/2) Routing and navigation/7. Programmatic navigation.md",
     "Essentials/Next Js/2) Routing and navigation/6. catch all routes.md",
@@ -195,9 +198,6 @@
     "Essentials/React/3) Styling React components/17. Vanilla CSS and BEM convention.md",
     "Essentials/CSS/7) CSS animations.md",
     "Essentials/CSS/8) CSS functions.md",
-    "Essentials/Java Script/8) Loops.md",
-    "Essentials/CSS/1) CSS selectors.md",
-    "Essentials/React/7) Routing with React Router/32. Dynamic routes and router's hooks.md",
     "Essentials/Next Js/2) Routing and navigation",
     "Essentials/Next Js/1) Intro and fundamentals",
     "Essentials/Next Js",
