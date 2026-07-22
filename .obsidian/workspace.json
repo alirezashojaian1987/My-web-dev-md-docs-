@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Next Js/3) Deep dive to different rendering techniques/11) Incremental static regeneration.md",
+                "file": "Essentials/Next Js/3) Deep dive to different rendering techniques/16) The _document file.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11) Incremental static regeneration"
+              "title": "16) The _document file"
             }
           }
         ]
@@ -171,8 +171,13 @@
   },
   "active": "5f955bda22014270",
   "lastOpenFiles": [
-    "Essentials/Next Js/3) Deep dive to different rendering techniques/10) Data fetching for static pages.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/15) The _app file and layout.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/16) The _document file.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/14) Type checking for SSG functions.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/13) Preparing paths with getStaticPaths.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/12) Server side rendering.md",
     "Essentials/Next Js/3) Deep dive to different rendering techniques/11) Incremental static regeneration.md",
+    "Essentials/Next Js/3) Deep dive to different rendering techniques/10) Data fetching for static pages.md",
     "Essentials/Next Js/3) Deep dive to different rendering techniques/9) How does pre-rendering works.md",
     "Essentials/Next Js/3) Deep dive to different rendering techniques/8) Nano id.md",
     "Essentials/Next Js/2) Routing and navigation/3. Routing in Nextjs.md",
@@ -193,11 +198,6 @@
     "Essentials/Java Script/3) Arrays/4) Arrays.md",
     "Essentials/Java Script/2) Objects/1) Objects.md",
     "Essentials/React/3) Styling React components/21. Sass.md",
-    "Essentials/React/3) Styling React components/20. Tailwind CSS.md",
-    "Essentials/React/3) Styling React components/18. CSS module.md",
-    "Essentials/React/3) Styling React components/17. Vanilla CSS and BEM convention.md",
-    "Essentials/CSS/7) CSS animations.md",
-    "Essentials/CSS/8) CSS functions.md",
     "Essentials/Next Js/2) Routing and navigation",
     "Essentials/Next Js/1) Intro and fundamentals",
     "Essentials/Next Js",
