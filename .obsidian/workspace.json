@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "efcf1f30c95e7b53",
+        "id": "b5fa42fdbd4f5802",
         "type": "tabs",
         "children": [
           {
-            "id": "b192eed7538952ae",
+            "id": "40381f84431539f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Next Js/5) Image part/3. Handling Responsiveness with sizes.md",
+                "file": "Essentials/Next Js/7) Font module/Font module.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Handling Responsiveness with sizes"
+              "title": "Font module"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.3000183105469
+    "width": 267.1000061035156
   },
   "right": {
     "id": "de78df208cd42a20",
@@ -171,10 +171,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "b192eed7538952ae",
+  "active": "40381f84431539f1",
   "lastOpenFiles": [
-    "Essentials/Next Js/5) Image part/2. Static import & placeholder.md",
+    "Essentials/Next Js/7) Font module/Font module.md",
+    "Essentials/Next Js/7) Font module",
+    "Essentials/Next Js/6) App router & Server components/5. Data fetching in server components.md",
+    "Essentials/Next Js/6) App router & Server components/6. Data fetching in Dynamic route.md",
+    "React Native/Quick project.md",
+    "React Native",
+    "Essentials/Next Js/6) App router & Server components/4. More about server components.md",
+    "Essentials/Next Js/6) App router & Server components/3. Server Components.md",
+    "Essentials/Next Js/6) App router & Server components/2. Reserved file names.md",
+    "Essentials/Next Js/6) App router & Server components/1. Introduction.md",
     "Essentials/Next Js/5) Image part/3. Handling Responsiveness with sizes.md",
+    "Essentials/Next Js/6) App router & Server components",
+    "Essentials/Next Js/5) Image part/2. Static import & placeholder.md",
     "Essentials/React/5) Side effects/26) Understanding UseEffects.md",
     "Essentials/Next Js/5) Image part/1. Intro.md",
     "Essentials/Next Js/4) More about NextJs/20) Environment variables.md",
@@ -192,23 +203,12 @@
     "Essentials/Java Script/6) Operators.md",
     "Essentials/Java Script/7) JS DOM/5) Separation of concern.md",
     "Essentials/Java Script/7) JS DOM/4) bubble and capture events.md",
-    "Essentials/Java Script/7) JS DOM/3) Dom events.md",
-    "Essentials/Java Script/7) JS DOM/2) DOM selectors.md",
-    "Essentials/Java Script/7) JS DOM/1) DOM.md",
-    "Essentials/Java Script/4) Function/5) Functions.md",
-    "Essentials/Java Script/4) Function/Arguments.md",
-    "Essentials/Java Script/4) Function/hoisting.md",
-    "Essentials/Java Script/4) Function/setInterval & setTimeout.md",
-    "Essentials/Java Script/4) Function/this.md",
     "Essentials/Next Js/4) More about NextJs",
     "Essentials/Next Js/3) Deep dive to different rendering techniques",
     "Essentials/Next Js/2) Routing and navigation",
     "Essentials/Next Js/1) Intro and fundamentals",
     "Essentials/Next Js",
     "Essentials/Type Script/6) React with Typescript",
-    "Essentials/Type Script/5) Modules",
-    "Essentials/React/14) Optimization techniques",
-    "Essentials/Type Script/4) Generics",
     "img_sem_elements 1.gif",
     "img_sem_elements.gif"
   ]
