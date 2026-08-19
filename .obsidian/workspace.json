@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Next Js/7) Font module/Font module.md",
+                "file": "Essentials/Java Script/2) Control flow/2. Loops in Js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Font module"
+              "title": "2. Loops in Js"
             }
           }
         ]
@@ -173,7 +173,16 @@
   },
   "active": "40381f84431539f1",
   "lastOpenFiles": [
+    "Essentials/Java Script/2) Control flow/1. Conditions in Js.md",
+    "Essentials/Java Script/2) Control flow/2. Loops in Js.md",
+    "Essentials/Java Script/1) Variables & scopes/3) JS Scopes.md",
+    "Essentials/Java Script/2) Control flow",
+    "Essentials/Java Script/2) Objects/1) Objects.md",
+    "Essentials/Java Script/1) Variables & scopes/4) JS hoisting.md",
+    "Essentials/Java Script/1) Variables & scopes/2) Data types.md",
+    "Essentials/Java Script/1) Variables & scopes/1) Variables.md",
     "Essentials/Next Js/7) Font module/Font module.md",
+    "Untitled",
     "Essentials/Next Js/7) Font module",
     "Essentials/Next Js/6) App router & Server components/5. Data fetching in server components.md",
     "Essentials/Next Js/6) App router & Server components/6. Data fetching in Dynamic route.md",
@@ -196,19 +205,10 @@
     "Essentials/Next Js/3) Deep dive to different rendering techniques/16) The _document file.md",
     "Essentials/Next Js/4) More about NextJs/18) Fetching News with getStaticProps.md",
     "Essentials/React/1) React intro/2. Virtual DOM.md",
-    "Essentials/React/1) React intro/1. React intro.md",
-    "Essentials/Java Script/9) Regular expressions.md",
-    "Essentials/Java Script/8) Loops.md",
-    "Essentials/Java Script/7) Condition statements.md",
-    "Essentials/Java Script/6) Operators.md",
-    "Essentials/Java Script/7) JS DOM/5) Separation of concern.md",
-    "Essentials/Java Script/7) JS DOM/4) bubble and capture events.md",
     "Essentials/Next Js/4) More about NextJs",
     "Essentials/Next Js/3) Deep dive to different rendering techniques",
     "Essentials/Next Js/2) Routing and navigation",
     "Essentials/Next Js/1) Intro and fundamentals",
-    "Essentials/Next Js",
-    "Essentials/Type Script/6) React with Typescript",
     "img_sem_elements 1.gif",
     "img_sem_elements.gif"
   ]
