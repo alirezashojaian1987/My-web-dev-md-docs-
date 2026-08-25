@@ -12,7 +12,7 @@ Objects use names to access it's members.
 Array elements can be objects.
 JavaScript variables can be objects. Arrays are special kinds of objects.
 Because of this, you can have variables of different types in the same Array.
-You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array.
+You can have objects, functions in an Array. You can even have arrays in an Array.
 ##### Creating an array
 Using an array literal is the easiest way to create a JS array.
 ```syntax
@@ -58,7 +58,8 @@ console.log(arr[arr.length-1]);
 You can use `indexof()` method.
 ```js
 const nums=[2,122,50,222];
-console.log(nums.indexof(50)); //2
+console.log(nums.indexOf(50)); //2
+console.log(nums.indexOf(300)); //-1 which means the element doesn't exist
 ```
 *!Note:* If the element doesn't exist in the array, it returns -1.
 *Note:* If you are sure that the element you are looking for, is above a certain index, you can set it right next to the requested element.
@@ -73,16 +74,20 @@ const nums=[1,2,3,4,5];
 console.log(nums.includes(6)); //false
 ```
 *Note:* Same as `indexof` method, you can set a start search index.
-
+##### Changing an Array element
+```js
+const nums=[1,2,3];
+nums[0]=10; //[10,2,3]
+```
 ##### Finding objects in an array
 Because objects and arrays are non-primitive types, they have their own addresses.
-If you use includes method in order to realize if an object exists in an array or not, it will always return false, even that the objects are the same. The difference is that they have their own addresses.
+If you use includes method in order to realize if an object exists in an array or not, it will always return false, even though the objects are the same. The difference is that they have their own addresses.
 
-To find an object in an array, we can use these methods:
+To find an object within an array, we can use these methods:
 ```js
 const names_list=[
 	{id:1,name:"Alireza"},
-	{id:2,name:"Shirin"},
+	{id:2,name:"Sohrab"},
 ]
 
 const res=names_list.find(function(item){
