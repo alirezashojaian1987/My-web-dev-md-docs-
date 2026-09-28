@@ -9,7 +9,7 @@ const talk=()=>{
 const obj={
 	fname,
 	age,
-	talk;
+	talk,
 };
 
 console.log(obj.fname); //Alireza

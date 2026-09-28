@@ -1,8 +1,8 @@
 ##### Destructuring objects
 See objects as a package, sometimes we need a key out of it. Like unpacking an element from the object
 ```js
-const obj={UserName:"Alireza",id:10,};
-const {UserName}=obj;
+const obj={ UserName:"Alireza", id:10, };
+const { UserName }=obj;
 
 //instead of this: const name=obj.UserName;
   
@@ -18,7 +18,7 @@ const obj={
 		console.log("Ha ha ha");
 	},
 };
-const {UserName,sing}=obj;
+const { UserName, sing }=obj;
   
 console.log(UserName); //Alireza
 sing(); //Ha ha ha

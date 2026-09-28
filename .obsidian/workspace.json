@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "345bdd3aeaf8808f",
+        "id": "82b524f00a16fac3",
         "type": "tabs",
         "children": [
           {
-            "id": "38e7fbfe086ac433",
+            "id": "34d79a6fee88e33f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Java Script/3) Arrays/Arrays.md",
+                "file": "HTML/1) Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrays"
+              "title": "1) Intro"
+            }
+          },
+          {
+            "id": "733c538914992051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1)My roadmap.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1)My roadmap"
             }
           }
         ]
@@ -80,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.89999389648438
+    "width": 200
   },
   "right": {
     "id": "de78df208cd42a20",
@@ -171,40 +185,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b19f75e8d110ff9",
+  "active": "34d79a6fee88e33f",
   "lastOpenFiles": [
-    "Essentials/Java Script/3) Arrays/1. Adding to arrays.md",
+    "1)My roadmap.md",
+    "HTML/1) Intro.md",
+    "Essentials/CSS/1) CSS selectors.md",
+    "Essentials/HTML/11) links 1.md",
+    "Essentials/Java Script/8)ECMA Script/6) Es versions.md",
+    "Essentials/Java Script/8)ECMA Script/5) Map.md",
+    "Essentials/Java Script/8)ECMA Script/4) Set.md",
+    "Essentials/Java Script/8)ECMA Script/1) ECMA Script.md",
+    "Essentials/Java Script/8)ECMA Script/3) Enhanced Object literals.md",
+    "Essentials/Java Script/8)ECMA Script/2) Destructuring.md",
+    "Essentials/Java Script/2) Objects/Objects.md",
     "Essentials/Java Script/3) Arrays/Arrays.md",
-    "Essentials/Advance React/Design patterns/3. Higher order component.md",
-    "Essentials/Advance React/Design patterns/2. Container presentational pattern.md",
-    "Essentials/React/1) React intro/6. Working with react.md",
-    "Essentials/React/1) React intro/5. Is React a library or a framework.md",
-    "Essentials/React/1) React intro/4. Data flow in React.md",
-    "Essentials/React/1) React intro/3. Components.md",
-    "Essentials/React/1) React intro/1. React intro.md",
-    "Essentials/React/1) React intro/2. Virtual DOM.md",
-    "Essentials/Advance React/Design patterns/1. What is design pattern.md",
+    "Essentials/Next Js/5) Image part/1. Intro.md",
+    "Essentials/Next Js/5) Image part/2. Static import & placeholder.md",
+    "Essentials/Next Js/5) Image part/3. Handling Responsiveness with sizes.md",
+    "Essentials/Java Script/JSON.md",
+    "Essentials/Java Script/4) Function/setInterval & setTimeout.md",
+    "React Native/Quick project.md",
+    "Essentials/React/10) Context API and useReducer/38) Managing cart items with context.md",
+    "Essentials/React/9) Improving shop project/35) Implementing product detail.md",
+    "Essentials/React/8) Axios/34. Axios intro.md",
+    "Essentials/React/7) Routing with React Router/30. Routers.md",
+    "Essentials/React/6) Setting up shop project/29) Implementing Header.md",
+    "Essentials/React/6) Setting up shop project/28) Homepage setup.md",
+    "Essentials/React/5) Side effects/27) Clean up in useEffect.md",
+    "Essentials/React/5) Side effects/26) Understanding UseEffects.md",
     "Essentials/Advance React/Design patterns",
     "Essentials/Advance React",
-    "Essentials/Java Script/2) Control flow/2. Loops in Js.md",
-    "Essentials/Java Script/2) Control flow/1. Conditions in Js.md",
-    "Essentials/Java Script/1) Variables & scopes/3) JS Scopes.md",
     "Essentials/Java Script/2) Control flow",
-    "Essentials/Java Script/2) Objects/1) Objects.md",
-    "Essentials/Java Script/1) Variables & scopes/4) JS hoisting.md",
-    "Essentials/Java Script/1) Variables & scopes/2) Data types.md",
-    "Essentials/Java Script/1) Variables & scopes/1) Variables.md",
-    "Essentials/Next Js/7) Font module/Font module.md",
     "Untitled",
     "Essentials/Next Js/7) Font module",
-    "Essentials/Next Js/6) App router & Server components/5. Data fetching in server components.md",
-    "Essentials/Next Js/6) App router & Server components/6. Data fetching in Dynamic route.md",
-    "React Native/Quick project.md",
     "React Native",
-    "Essentials/Next Js/6) App router & Server components/4. More about server components.md",
-    "Essentials/Next Js/6) App router & Server components/3. Server Components.md",
-    "Essentials/Next Js/6) App router & Server components/2. Reserved file names.md",
-    "Essentials/Next Js/6) App router & Server components/1. Introduction.md",
     "Essentials/Next Js/6) App router & Server components",
     "Essentials/Next Js/5) Image part",
     "Essentials/Next Js/4) More about NextJs",

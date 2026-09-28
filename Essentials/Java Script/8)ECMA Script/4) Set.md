@@ -22,6 +22,12 @@ const mySet=new Set([1,2,3]);
 console.log(mySet.size);
 ```
 
+**Has method**
+You can use some of the array's methods on sets as well:
+```js
+console.log(collection.has("apple"));
+```
+
 ##### Deleting from set
 ```js
 const mySet=new Set([1,2,3]);

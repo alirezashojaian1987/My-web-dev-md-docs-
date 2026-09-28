@@ -13,6 +13,103 @@ function sum(n1,n2){
 
 console.log(sum(2,3));
 ```
+##### Scope
+```js
+const a=10;
+console.log(a);
+```
+Obviously it prints the 10, now:
+```js
+const a=10;
+function test(){
+    const b=10;
+}
+console.log(b);
+```
+Will result in an error that the b is not defined. That's because it's not in the global scope.
+```js
+const a=10;
+
+function test(){
+    const b=100;
+    console.log(a);
+}
+
+test();
+```
+The console will print the `a`. because it's defined in the global scope.
+In other words: when on a scope(like inside a function), it can access the parent scope(which here is the global scope).
+
+Let's go with another example:
+```js
+function test(){
+    const b=100;
+    if(b>100){
+        const c=101;
+        console.log(b);
+    }
+    console.log(c);
+}
+test();
+```
+Which will result in: `ReferenceError: c is not defined`
+Here, in the `if` scope as you see we can access the `b` but in the outer layer, we can't access the `c` parameter in the function scope.
+
+Now what if we have two parameters with the same name but in different scopes:
+```js
+const a=10;
+
+function test(){
+	const a=100;
+	console.log(a);
+}
+
+test(); //100
+console.log(a); //10
+```
+What happened here is that inside the function scope, the nearest parameter with the `a` name was considered.
+##### Function declaration and hoisting
+There are 2 ways to declare a function, first one as we mentioned before is by using the `function` keyword. 
+The other method is **function expression**
+```js
+const sing=function(){ // or also function test(){}
+	console.log("Singing");
+};
+
+sing();
+```
+Function expressions help when you want to pass your functions to another variables.
+
+But the main difference here is the **hoisting** matter.
+Let's go with examples:
+```js
+function run(){
+	console.log("Running");
+}
+run();
+```
+Which will print the result as we expect.
+But how about this:
+```js
+run();
+
+function run(){
+	console.log("Running");
+}
+```
+It will still print the result! Although as we know, in Js that it reads and executes the code line by line.
+
+```js
+sing();
+
+const sing=function(){
+	console.log("Singing");
+};
+```
+Now here we will have reference error.
+
+Here we can discuss about the hoisting matter.
+When we declare a function, Js will actually places it above the code behind the scene, and then executes it. It won't do it for the function expression.
 
 ##### Arrow functions
 **Arrow Functions** allow a shorter syntax for **function expressions**.

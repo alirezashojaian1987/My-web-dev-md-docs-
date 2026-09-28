@@ -27,4 +27,4 @@ setTimeout(()=>{
 ```
 The code above will stop printing after 6 seconds.
 
-*!Note:* Like method above, remember to always cleat timeout and Interval methods. Because it will consume more memory.
+*!Note:* Like method above, remember to always clear timeout and Interval methods. Because it will consume more memory.
