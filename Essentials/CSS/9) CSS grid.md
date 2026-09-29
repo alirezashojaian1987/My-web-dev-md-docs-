@@ -2,7 +2,8 @@
 The Grid Layout Module offers a grid-based layout system, with rows and columns.
 The Grid Layout Module allows developers to easily create complex web layouts.
 The Grid Layout Module makes it easy to design a responsive layout structure, without using `float` or positioning.
-*!Note:* Before you use grid, make sure to use the firefox tools for a better grid lines view.
+
+*Note:* You can also use the firefox tools when working with grid for a better grid lines view.
 
 Create a grid container by setting the `display` property with a value of `grid` or `inline-grid`. All direct children of grid containers become grid items.
 ```css
@@ -15,17 +16,36 @@ display:inline-grid;
 
 
 ```html
-<div class="wrapper">
-	<div class="item">1</div>
-	<div class="item">2</div>
-	<div class="item">3</div>
-	<div class="item">4</div>
-	<div class="item">5</div>
-	<div class="item">6</div>
-	<div class="item">7</div>
-	<div class="item">8</div>
-	<div class="item">9</div>
-</div>
+<body>
+	<div class="container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+	</div>
+</body>
+```
+
+```css
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding:10px;
+}
+  
+.container div{
+    background-color: #f1f1f1;
+    border:1px solid black;
+    padding:10px;
+    font-size: 30px;
+    text-align: center;
+}
 ```
 
 **Explicit Grid**

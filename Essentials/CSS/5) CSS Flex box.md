@@ -1,3 +1,43 @@
+##### CSS Flexbox
+Flexbox is a layout model for arranging items (horizontally or vertically) within a container, in a flexible and responsive way.
+
+Flexbox makes it easy to design a flexible and responsive layout, without using float or positioning.
+```html
+<body>
+	<div class="container">
+		<div>item1</div>
+		<div>item2</div>
+		<div>item3</div>
+		<div>item4</div>
+		<div>item5</div>
+	</div>
+</body>
+```
+
+```css
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+  
+.container{
+    display: flex;
+    background-color: dodgerblue;
+}
+  
+.container div{
+    background-color: #f1f1f1;
+    margin:10px;
+    padding:20px;
+    font-size: 24px;
+}
+```
+##### CSS Flexbox components
+A flexbox always consists of:
++ **A flex container:** The parent (container) element, where the `display` property is set to `flex` or `inline-flex`. 
++ **One or more flex items:** The direct children of the flex container automatically becomes flex items
+##### CSS flex container
 The flex container element can have the following properties:
 - `display` - Must be set to `flex` or `inline-flex`
 - `flex-direction` - Sets the display-direction of flex items
@@ -8,7 +48,7 @@ The flex container element can have the following properties:
 - `align-self` is for one item only
 - `align-content` - Aligns the flex lines when there is extra space in the cross axis and flex items wrap
 ##### Justify-content
-This property is used to align the flex items when they do not use all available space on the main-axis (horizontally).
+The `justify-content` is used to align the flex items when they do not use all available space on the main-axis (horizontally).
 This property can have one of the following values:
 - `center`:aligns the flex items in the center of the container
 - `flex-start` (default):aligns the flex items at the beginning of the container (this is default)
@@ -16,15 +56,42 @@ This property can have one of the following values:
 - `space-around`:displays the flex items with space around them
 - `space-between`:displays the flex items with space between them
 - `space-evenly`:displays the flex items with equal space around them
+```html
+<body>
+	<div class="container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+	</div>
+</body>
+```
+
 ```css
-.flex-container{
-	display:flex;
-	justify-content: ;
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+  
+.container div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;  
+    font-size: 30px;
 }
 ```
 
 ##### align-items
-This property is used to align the flex items when they do not use all available space on the cross-axis (vertically).
+The `align-items` property is used to align the flex items when they do not use all available space on the cross-axis (vertically).
 This property can have one of the following values:
 - `center`:aligns the flex items in the middle of the container
 - `flex-start`:aligns the flex items at the top of the container
@@ -53,23 +120,28 @@ This property can have one of the following values:
 ```
 
 ```css
-.flex{
-    display:flex;
-    align-items: flex-end;
-    justify-content: center;
-    height:400px;
-    border:3px solid black;
-    flex-direction: column;
+.container{
+    height:200px;
+    display: flex;
+    align-items: baseline;
+    background-color: dodgerblue;
 }
   
-.box{
-    width:100px;
-    height:100px;
-    background-color: aquamarine;
-    border:3px solid aqua;
+.container div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;  
+    font-size: 30px;
 }
 ```
 
+**align-self**
+The `align-self` property specifies the alignment for the selected item inside the flexible container.
+```css
+align-self:center;
+```
 ##### flex-direction property
 This property can have one of the following values:
 - `row` (default)
@@ -77,9 +149,25 @@ This property can have one of the following values:
 - `row-reverse`
 - `column-reverse`
 ```css
-.flex-container{
-	display:flex;
-	flex-direction:row;
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+}
+  
+.container div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;  
+    font-size: 30px;
 }
 ```
 
@@ -119,10 +207,30 @@ This property can have one of the following values:
 - `nowrap` (default)
 - `wrap`
 - `wrap-reverse`
+
+The `nowrap` value specifies that the flex items will not wrap (this is default)
+
+The `wrap` value specifies that the flex items will wrap if necessary
 ```css
-.flex-container{
-	display:flex;
-	flex-wrap:wrap;
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+  
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+  
+.container div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;  
+    font-size: 30px;
 }
 ```
 
@@ -158,10 +266,8 @@ When there is empty space for a defined flex container, flex grow for an item ca
 Now the item3's size fills the gap.
 *!Note:* Remember that using `flex-grow` for two or more items, the remaining space is divided equally for them.
 ##### Flex-shrink
-When you shrink your web size, it also affects the size of elements inside, to avoid that, we use `flex-shrink`
+When you shrink your web size, it also affects the size of elements inside, to avoid that, we use `flex-shrink`. The default value is 1. 
 ```css
 flex-shrink:0;
 ```
 You can use it on elements, containers and... to avoid getting shrinked.
-
-##### Flex-basis

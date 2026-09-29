@@ -1,3 +1,21 @@
+##### The CSS box model
+Every box consists of four parts: content, padding, borders and margins.
+Explanation of the different parts (from innermost part to outermost part):
+- **Content** - The content of the box, where text and images appear
+- **Padding** - Clears an area around the content. The padding is transparent
+- **Border** - A border that goes around the padding and content
+- **Margin** - Clears an area outside the border. The margin is transparent
+
+The box model allows us to add a border around elements, and to define space between elements.
+```css
+div {
+  width: 300px;  
+  border: 15px solid green;  
+  padding: 50px;  
+  margin: 20px;
+}
+```
+
 ##### margin
 The CSS margin properties are used to create space around elements, outside of any defined borders.
 Margins define the distance between an element's border and the surrounding elements.

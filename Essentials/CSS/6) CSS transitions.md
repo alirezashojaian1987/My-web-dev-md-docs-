@@ -1,4 +1,4 @@
-CSS transitions allows you to change  property values smoothly, over a given duration.
+CSS transitions allows you to change property values smoothly, over a given duration.
 To create a transition effect, you must specify the CSS property you want to add a transition to, and the duration of the transition.
 + **transition-property** (required)
 + **transition-duration** (required)
@@ -23,7 +23,20 @@ div:hover{
 }
 ```
 Notice that when the cursor mouses out of the element, it will gradually change back to its original style.
+##### Change multiple property values
+You can change multiple properties by separating them by commas.
+```css
+div{
+	transition:width 2s, height 4s, background-color 3s;
+}
+```
 
+If you want all properties to change at once, you can use `all`:
+```css
+div{
+	transition:all 4s;
+}
+```
 ##### CSS transition speed curve
 The `transition-timing-function` property specifies the speed curve of the transition effect.
 This property can have one of the following values:
@@ -33,14 +46,56 @@ This property can have one of the following values:
 - `ease-out` - transition will end slow
 - `ease-in-out` - transition will have a slow start and end
 - `cubic-bezier(n,n,n,n)` - lets you define your own values in a cubic-bezier function
-```css
-#div1 {transition-timing-function: linear;}  
-#div2 {transition-timing-function: ease;}  
-#div3 {transition-timing-function: ease-in;}  
-#div4 {transition-timing-function: ease-out;}  
-#div5 {transition-timing-function: ease-in-out;}
+
+```html
+<body>
+	<div id="div1">linear</div>
+	<div id="div2">ease</div>
+	<div id="div3">ease-in</div>
+	<div id="div4">ease-out</div>
+	<div id="div5">ease-in-out</div>
+</body>
 ```
 
+```css
+div{
+    width:100px;
+    height:100px;
+    background: red;
+    transition:width 2s;
+}
+  
+#div1 {transition-timing-function: linear;}  
+#div2 {transition-timing-function: ease;}  
+#div3 {transition-timing-function: ease-in;}  
+#div4 {transition-timing-function: ease-out;}  
+#div5 {transition-timing-function: ease-in-out;}
+  
+div:hover{
+    width:300px;
+}
+```
+##### Transition + Transform
+The following example combines transition and transform for a `<div>`
+```html
+<div></div>
+```
+
+```css
+div{
+    width:100px;
+    height:100px;
+    background: red;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+  
+div:hover{
+    width:300px;
+    height:300px;
+    transform: rotate(180deg);
+    background-color: purple;
+}
+```
 ##### CSS transition delay
 The `transition-delay` property specifies a delay before the transition starts.
 The `transition-delay` value is defined in seconds (s) or milliseconds (ms).
