@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff759cb8433fbe65",
+        "id": "23cb7800e2f96ded",
         "type": "tabs",
         "children": [
           {
-            "id": "94532c84c5d40778",
+            "id": "27a8c57b17632b6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Essentials/Java Script/9) Advanced JS/1) How JS works.md",
+                "file": "Essentials/React/2) React basics/9. JSX under the hood.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) How JS works"
+              "title": "9. JSX under the hood"
             }
           }
         ]
@@ -171,34 +171,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "94532c84c5d40778",
+  "active": "27a8c57b17632b6c",
   "lastOpenFiles": [
-    "Essentials/Java Script/9) Advanced JS/6) Promises.md",
+    "Essentials/React/2) React basics/16. How to get better in React.md",
+    "Essentials/React/2) React basics/9. JSX under the hood.md",
+    "Essentials/React/2) React basics/8. Passing props as children.md",
+    "Essentials/React/2) React basics/7. States vs Props.md",
+    "Essentials/React/2) React basics/6. Passing props to components.md",
+    "Essentials/React/2) React basics/5. Handle events.md",
+    "Essentials/React/2) React basics/4. Conditions in JSX.md",
+    "Essentials/React/2) React basics/3. Fragments.md",
+    "Essentials/React/2) React basics/2. Rendering list.md",
+    "Essentials/React/2) React basics/1. JSX basics.md",
+    "Essentials/React/1) React intro/3. Components.md",
+    "Essentials/React/1) React intro/4. Data flow in React.md",
+    "Essentials/React/1) React intro/6. Working with react.md",
+    "Essentials/React/3) Styling React components/21. Sass.md",
+    "Essentials/React/7) Routing with React Router/30. Routers.md",
+    "Essentials/React/7) Routing with React Router/31. NavLinks.md",
+    "Essentials/React/1) React intro/5. Is React a library or a framework.md",
+    "Essentials/React/1) React intro/2. Virtual DOM.md",
+    "Essentials/React/1) React intro/1. React intro.md",
+    "Essentials/Java Script/9) Advanced JS/Fetch API.md",
     "Essentials/Java Script/9) Advanced JS/1) How JS works.md",
+    "Essentials/Java Script/9) Advanced JS/2) JS modules.md",
+    "Essentials/Java Script/9) Advanced JS/3) closures.md",
+    "Essentials/Java Script/9) Advanced JS/4) Curried and compose functions.md",
+    "Essentials/Java Script/9) Advanced JS/6) Promises.md",
     "Essentials/CSS/7) CSS animations.md",
-    "1)My roadmap.md",
-    "Essentials/CSS/CSS units.md",
-    "Essentials/CSS/6) CSS transitions.md",
-    "Essentials/CSS/9) CSS grid.md",
-    "Essentials/CSS/10) Variables.md",
-    "Essentials/CSS/5) CSS Flex box.md",
-    "Essentials/CSS/4) CSS positioning.md",
-    "HTML/10) styles - CSS.md",
-    "HTML/7) Styles.md",
-    "Essentials/CSS/3) CSS Display.md",
-    "Essentials/CSS/2) CSS box model.md",
-    "Essentials/CSS/1) CSS selectors.md",
-    "HTML/28) HTML Forms.md",
-    "HTML/27) HTML symbols & Entities.md",
-    "HTML/26) HTML computer code elements.md",
-    "HTML/25) HTML responsive web design.md",
-    "HTML/24) HTML layout elements and techniques.md",
-    "HTML/23) Head element.md",
-    "HTML/22) HTML JS.md",
-    "HTML/21) Iframes.md",
-    "HTML/20) id attribute.md",
-    "HTML/19) classes.md",
-    "HTML/18) div element.md",
     "New Text Document.txt",
     "Essentials/Advance React/Design patterns",
     "Essentials/Advance React",

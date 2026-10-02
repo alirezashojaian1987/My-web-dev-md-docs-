@@ -14,7 +14,6 @@ In our html doc, we have 3 script files:
 For example, we have written a function in the js file and we also used it in the js2 file. Considering the chance that we may make a mistake and not ordering them right, it will cause a problem. If js2 is defined first in the html, the browser will download that file first, the function's definition is in first js file so the browser doesn't recognize the function which will cause some issues.
 
 Fourth new thing is reusability. Let's say we have written a html doc and used some scripts in it. Now we are writing another html doc related to the main one and also we can use some of the scripts there, it's not proper copying and pasting the code there, we always need to avoid using codes multiple times. Cause when you face a problem in your code, you need to correct it from every where you pasted the code.
-
 ##### IIFE
 Immediately invoked function expressions(IIFE) is a function that will run automatically and immediately after definition.
 Normally we write our functions like this:
